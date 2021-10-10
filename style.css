@@ -1,0 +1,72 @@
+body {
+    margin: 0 auto;
+    width: 1440px;
+    height: auto;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+}
+
+.blue-section {
+    width: 1300px;
+    height: 812px;
+    background-color: hsl(225, 100%, 94%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    max-width: 420px;
+    background-color: white;
+    text-align: center;
+    border-radius: 30px;
+}
+
+h1.container {
+    font-size: 7em;
+    font-weight: 900;
+}
+
+.align-image {
+    max-width: 420px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.layout {
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+}
+
+.size-icon {
+    border-radius: 50%;
+    aspect-ratio: 1;
+}
+
+#align-text {
+    line-height: 1.5em;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.align-plan {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.align-link {
+    display: block;
+    text-align: center;
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+    padding-top: 20px;
+    margin-left: 80px;
+}
+
+#price {
+    color: lightgrey;
+    text-align: center;
+}
