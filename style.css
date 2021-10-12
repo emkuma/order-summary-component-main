@@ -1,20 +1,20 @@
 body {
-    margin: 0 auto;
     width: 1440px;
     height: auto;
     font-family: 'Red Hat Display', sans-serif;
     font-size: 16px;
-    background-image: url(images/pattern-background-desktop.svg);
-    background-repeat: no-repeat;
+    /*background-image: url(images/pattern-background-desktop.svg);*/
+    background-size: cover;
+    background-color: yellow;
 }
 
 .blue-section {
     width: 1300px;
-    height: 812px;
+    height: 800px;
     background-color: hsl(225, 100%, 94%);
     display: flex;
     justify-content: center;
-    align-items: center;
+    /*align-items: center;*/
 }
 
 .container {
@@ -24,8 +24,8 @@ body {
     border-radius: 30px;
 }
 
-h1.container {
-    font-size: 7em;
+h1.increase {
+    font-size: 25px;
     font-weight: 900;
 }
 
@@ -41,9 +41,11 @@ h1.container {
     justify-content: center;
 }
 
-.size-icon {
-    border-radius: 50%;
-    aspect-ratio: 1;
+.align-music-icon {
+    border-radius: 50;
+    padding-top: 15px;
+    padding-left: 25px;
+    padding-right: 15px;
 }
 
 #align-text {
@@ -53,16 +55,19 @@ h1.container {
 }
 
 .align-plan {
-    padding-left: 30px;
-    padding-right: 30px;
+    width: 100px;
+    font-weight: 900;
+    padding-left: 0;
+    padding-right: 5px;
 }
 
 .align-link {
     display: block;
     text-align: center;
     color: hsl(223, 47%, 23%);
-    font-weight: 900;
-    padding-top: 20px;
+    font-size: 13px;
+    font-weight: 700;
+    padding-top: 30px;
     margin-left: 80px;
 }
 
