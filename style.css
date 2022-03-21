@@ -5,7 +5,7 @@ body {
     font-size: 16px;
     /*background-image: url(images/pattern-background-desktop.svg);*/
     background-size: cover;
-    background-color: yellow;
+    /* background-color: yellow; */
 }
 
 .blue-section {
@@ -14,14 +14,16 @@ body {
     background-color: hsl(225, 100%, 94%);
     display: flex;
     justify-content: center;
-    /*align-items: center;*/
 }
 
 .container {
+    margin-top: 50px;
+    margin-bottom: 50px;
     max-width: 420px;
+    height: 610px;
     background-color: white;
     text-align: center;
-    border-radius: 30px;
+    border-radius: 25px;
 }
 
 h1.increase {
@@ -31,12 +33,16 @@ h1.increase {
 
 .align-image {
     max-width: 420px;
-    border-top-left-radius: 30px;
-    border-top-right-radius: 30px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
 }
 
 .layout {
-    border: 1px solid red;
+    /* border: 1px solid red; */
+    margin-left: 30px;
+    margin-right: 30px;
+    width: 85%;
+    background-color: hsl(225, 100%, 99%);
     display: flex;
     justify-content: center;
 }
@@ -49,12 +55,14 @@ h1.increase {
 }
 
 #align-text {
+    color: grey;
     line-height: 1.5em;
     padding-left: 50px;
     padding-right: 50px;
 }
 
 .align-plan {
+    font-size: 1em;
     width: 100px;
     font-weight: 900;
     padding-left: 0;
@@ -64,7 +72,7 @@ h1.increase {
 .align-link {
     display: block;
     text-align: center;
-    color: hsl(223, 47%, 23%);
+    color: hsl(245, 75%, 52%); 
     font-size: 13px;
     font-weight: 700;
     padding-top: 30px;
@@ -74,4 +82,31 @@ h1.increase {
 #price {
     color: lightgrey;
     text-align: center;
+}
+
+.proceed-button {
+    font-size: 13px;
+    font-weight: 800;
+    /* box-shadow: 5px 30px hsl(225, 100%, 99%); */
+    box-shadow: 0px 25px hsl(225, 100%, 98%);
+    border-radius: 10px;
+    border: none;
+    background-color:hsl(245, 75%, 52%);
+    color: white;
+    width: 75%;
+    line-height: 3em;
+    margin-top: 25px;
+    margin-left: 35px;
+    margin-right: 40px;
+    margin-bottom: 25px;
+}
+
+.cancel-button {
+    font-weight: 800;
+    background-color: white;
+    color: grey;
+    border: none;
+    width: 35%;
+    line-height: 3emk
+
 }
